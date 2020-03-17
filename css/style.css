@@ -1,0 +1,76 @@
+/* ------------- Aktiviteter underside --------- */
+
+#act {
+    background-color: black;
+}
+
+#aktiviteter {
+    font-family: Bebas Neue;
+    font-size: 2.5rem;
+}
+
+#containerakt {
+    color: white;
+    font-family: Myriad Pro;
+    margin: 2%;
+}
+
+.boxes img {
+    width: 100%;
+}
+
+.boxes {
+    margin: 15% 0;
+
+}
+
+.boxes h3 {
+    margin-bottom: 0;
+}
+
+.boxes p {
+    margin-top: 0;
+    margin-top: 5%;
+}
+
+
+/*------------ QR spillet underside --------------*/
+
+#qrmain {
+    background-color: black;
+}
+
+#qrspillet {
+    font-family: Bebas Neue;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+#qrcontent {
+    color: white;
+    margin: 2%;
+    font-family: Myriad Pro;
+
+}
+#qrcontent p {
+    margin-top: 5%;
+      margin-bottom: 5%;
+     font-size: 1.0rem;
+}
+
+#qrposter, #qrpurple {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#qrbeer {
+    width: 100%;
+
+}
+
+
