@@ -1,0 +1,56 @@
+footer {
+       background-color: #130033;
+}
+
+#footerlogo {
+    width: 20%;
+    margin-left: 122px
+}
+
+h6 {
+    color: white;
+    text-align: center;
+}
+
+#flexcontainer1 {
+    color: white;
+ display: flex;
+}
+
+#flexcontainer2 {
+    color: white;
+    display: flex;
+}
+
+#tal1 {
+    margin-left: 159px;   
+}
+
+#tal2 {
+    margin-left: 104px
+}
+
+#telefonnr {
+    margin-left: 40px
+}
+
+
+@media only screen and (min-width: 375px) {
+    #footerlogo {margin-left: 145px}
+    #tal1 {margin-left: 214px;}
+    #tal2 {margin-left: 159px;}
+}
+
+@media only screen and (min-width: 414px) {
+     #footerlogo {margin-left: 160px}
+    #tal1 {margin-left: 250px;}
+    #tal2 {margin-left: 195px;}
+}
+
+@media only screen and (min-width: 768px) {
+     #footerlogo {margin-left: 300px}
+    #tekst1 {margin-left: 275px}
+    #tekst2 {margin-left: 275px}
+    #tal1 {margin-left: 80px;}
+    #tal2 {margin-left: 80px;}
+}
