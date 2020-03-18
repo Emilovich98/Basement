@@ -74,3 +74,60 @@
 }
 
 
+/*------ Media quereies 1000px ---- */
+@media only screen and (min-width: 1000px){
+    
+/*--Aktivitetetssiden--*/
+    #contentakt {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+         
+    }
+    .boxes {
+        width: 32%;
+        display: block;
+        margin-left: auto;
+    margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+/*--QR siden--*/
+    #qrcontent {
+         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    #qrbeer {
+        width: 30%;
+        margin-left: 2%;
+        margin-bottom: 10%;
+    }
+    #qrposter {
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    #qrpurple {
+        width: 20%;
+        margin: 0;
+        margin-left: 2%;
+    }
+    #qrcontent p {
+         width: 45%;
+        margin: 0;
+        margin-left: 10%;
+        font-size: 1.5rem;
+        border:1px white solid;
+        padding: 5%;
+    }
+    #qrspillet {
+        margin-bottom: 5%;
+        width: 100%
+    }
+}
+
+
