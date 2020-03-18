@@ -34,28 +34,28 @@ font-style: normal;
 }
 
 #tal1 {
-    margin-left: 145px;   
+    margin-left: 160px;   
 }
 
 #tal2 {
-    margin-left: 80px
+    margin-left: 100px
 }
 
 #telefonnr {
-    margin-left: 50px
+    margin-left: 45px
 }
 
 
 @media only screen and (min-width: 375px) {
     #footerlogo {margin-left: 145px}
-    #tal1 {margin-left: 200px;}
-    #tal2 {margin-left: 135px;}
+    #tal1 {margin-left: 215px;}
+    #tal2 {margin-left: 155px;}
 }
 
 @media only screen and (min-width: 414px) {
      #footerlogo {margin-left: 160px}
-    #tal1 {margin-left: 239px;}
-    #tal2 {margin-left: 175px;}
+    #tal1 {margin-left: 255px;}
+    #tal2 {margin-left: 193px;}
 }
 
 @media only screen and (min-width: 768px) {
