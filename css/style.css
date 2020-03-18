@@ -10,47 +10,58 @@ footer {
 h6 {
     color: white;
     text-align: center;
+    font-family: myriad-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 0
 }
 
 #flexcontainer1 {
     color: white;
  display: flex;
+    font-family: myriad-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 #flexcontainer2 {
     color: white;
     display: flex;
+    font-family: myriad-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 #tal1 {
-    margin-left: 159px;   
+    margin-left: 145px;   
 }
 
 #tal2 {
-    margin-left: 104px
+    margin-left: 80px
 }
 
 #telefonnr {
-    margin-left: 40px
+    margin-left: 50px
 }
 
 
 @media only screen and (min-width: 375px) {
     #footerlogo {margin-left: 145px}
-    #tal1 {margin-left: 214px;}
-    #tal2 {margin-left: 159px;}
+    #tal1 {margin-left: 200px;}
+    #tal2 {margin-left: 135px;}
 }
 
 @media only screen and (min-width: 414px) {
      #footerlogo {margin-left: 160px}
-    #tal1 {margin-left: 250px;}
-    #tal2 {margin-left: 195px;}
+    #tal1 {margin-left: 239px;}
+    #tal2 {margin-left: 175px;}
 }
 
 @media only screen and (min-width: 768px) {
      #footerlogo {margin-left: 300px}
-    #tekst1 {margin-left: 275px}
-    #tekst2 {margin-left: 275px}
+    #tekst1 {margin-left: 250px}
+    #tekst2 {margin-left: 195px}
     #tal1 {margin-left: 80px;}
     #tal2 {margin-left: 80px;}
 }
