@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: black;
+}
+
+nav {
+    height: 9vh;
+    width: 100%;
+    background-color: #130133;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----- Logo ----- */
+
+#logo {
+    height: 8vh;
+    margin-left: 3vh;
+}
+
+#logo img {
+    height: 100%;
+}
+
+/* ----- Burger ----- */
+
+#burger {
+    margin-right: 3vh;
+}
+
+.burger-line {
+    background-color: white;
+    height: 3px;
+    width: 30px;
+    margin: 6px 0px;
+    border-radius: 1.5px;
+    transition: all 0.3s ease;
+}
+
+.toggle #line-1 {
+    transform: rotate(-45deg) translate(-6px, 7px);
+}
+
+.toggle #line-2 {
+    opacity: 0;
+}
+
+.toggle #line-3 {
+    transform: rotate(45deg) translate(-6px, -7px);
+}
+
+/* ----- Nav-links-desktop ----- */
+
+#toggle-desk-nav {
+    display: none;
+    width: 60%;
+    margin-right: 3vh;
+}
+
+#nav-links-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-links-desktop li {
+    list-style: none;
+}
+
+#nav-links-desktop a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+/* ----- Nav-links-mobile ----- */
+
+#nav-links-mobile {
+    position: absolute;
+    top: 9vh;
+    right: 0;
+    height: 91vh;
+    background-color: #130133;
+    width: 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#nav-links-mobile li {
+    list-style: none;
+}
+
+.show-links {
+    white-space: nowrap;
+}
+
+#nav-links-mobile a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: white;
+}
+
+#expand-logo {
+    margin-top: 10vh;
+    height: 10vh;
+}
+
+#expand-logo img {
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+    #nav-links-mobile {
+        display: none;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    #toggle-desk-nav {
+        display: block;
+    }
+
+}

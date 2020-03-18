@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basement">
+    <meta name="keywords" content="Basement">
     <title>Basement</title>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
@@ -14,33 +17,40 @@
         <header>
             <nav>
                 <div id="logo">
-                    <a id="logo-link" href="index.html"><img src="images/basement-logo.svg"></a>
+                    <a href="index.html"><img src="images/basement-logo.svg" alt="Logo"></a>
                 </div>
-                <div id="burger">
-                    <div class="burger-line"></div>
-                    <div class="burger-line"></div>
-                    <div class="burger-line"></div>
+                <div id="burger" onclick="showMobileNav()">
+                    <div class="burger-line" id="line-1"></div>
+                    <div class="burger-line" id="line-2"></div>
+                    <div class="burger-line" id="line-3"></div>
                 </div>
-                <div id="nav-display">
-                    <ul id="nav-links">
-                        <li><a href="">Forside</a></li>
-                        <li><a href="">Priser</a></li>
-                        <li><a href="">Aktiviteter</a></li>
+                <div id="toggle-desk-nav">
+                    <ul id="nav-links-desktop">
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="index.html">Priser</a></li>
+                        <li><a href="index.html">Aktiviter</a></li>
+                        <li><a href="index.html">QR Spil</a></li>
                     </ul>
                 </div>
+                <ul id="nav-links-mobile">
+                    <li class="show-links"><a href="index.html">Forside</a></li>
+                    <li class="show-links"><a href="index.html">Priser</a></li>
+                    <li class="show-links"><a href="index.html">Aktiviter</a></li>
+                    <li class="show-links"><a href="index.html">QR Spil</a></li>
+                    <div id="expand-logo" class="show-links">
+                        <img src="images/basement-logo.svg" alt="Logo">
+                    </div>
+                </ul>
             </nav>
         </header>
         <main>
-            <h1>Hej</h1>
-            <h1>Hej</h1>
-            <h1>Hej</h1>
-            <h1>Hej</h1>
-            <h1>Hej</h1>
+
         </main>
         <footer>
 
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
