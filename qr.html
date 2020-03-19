@@ -4,18 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Basement">
-    <meta name="keywords" content="Basement">
-    <title>Basement</title>
+    <meta name="keywords" content="basement, eaaa, qr, hunt, school, bar, cafe," />
+    <meta name="description" content="Beskrivelse af hvordan QR kodejagten fungerer" />
+    <title>QR spil</title>
+    <link href="images/basment-logo.png" rel="icon">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="images/basment-logo.png" rel="icon">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div id="wrapper">
-        <header>
+<header>
             <nav>
                 <div id="logo">
                     <a href="index.html"><img src="images/basement-logo.svg" alt="Logo"></a>
@@ -29,14 +26,14 @@
                     <ul id="nav-links-desktop">
                         <li><a href="index.html">Forside</a></li>
                         <li><a href="priser.html">Priser</a></li>
-                        <li><a href="activities.html">Aktiviter</a></li>
+                        <li><a href="activities.html">Aktiviteter</a></li>
                         <li><a href="qr.html">QR Spil</a></li>
                     </ul>
                 </div>
                 <ul id="nav-links-mobile">
                     <li class="show-links"><a href="index.html">Forside</a></li>
                     <li class="show-links"><a href="priser.html">Priser</a></li>
-                    <li class="show-links"><a href="activities.html">Aktiviter</a></li>
+                    <li class="show-links"><a href="activities.html">Aktiviteter</a></li>
                     <li class="show-links"><a href="qr.html">QR Spil</a></li>
                     <li id="expand-logo" class="show-links">
                         <img src="images/basement-logo.svg" alt="Logo">
@@ -44,41 +41,24 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <div id="top-spacer"></div>
-            <div id="intro-container">
-                <img src="images/basement-logo.svg" alt="Basement Logo" id="intro-logo">
-                <img src="images/arrow-down-purple.svg" alt="Arrow down" id="arrow-down">
-            </div>
-            <div id="opslag-container">
-                <div id="opslag-1">
-                    <h2>Denne weekend</h2>
-                    <img src="images/post-1-large.jpg" alt="facebook-opslag 1" class="opslag">
-                </div>
-                <div id="opslag-2">
-                    <h2>Næste weekend</h2>
-                    <img src="images/post-2-large.jpg" alt="facebook-opslag 2" class="opslag">
-                </div>
-            </div>
-            <a id="facebook-button" href="https://www.facebook.com/Basement-EAAA-100264161619097/">
-                    <p>Læs mere</p>
-                    <img src="images/Purple-facebook-icon.svg" alt="Facebook">
-                </a>
-            <div id="om-basement">
-                <section class="intro-sections">
-                    <h2>Om Basement</h2>
-                    <p class="omtekst">Basement er stedet hvor studerende fra Erhvervsakademi Aarhus mødes over en øl, et brætspil eller noget helt tredje.<br><br>Uanset hvad er fællesskabet og hyggen i centrum.<br><br>Vi arrangerer stand-up comedy, mini-koncerter, fester, quiz, turneringer, bingo og alt hvad ellers kan stables på benene af de studerende som arbejder i Basement.<br><br>Vores beliggenhed i kælderen af Sønderhøj 30, gør os til det ideelle sted for mange forskellige sociale aktiviteter, og her har vi samlet studerende på tværs af uddannelser siden 2012.</p>
-                </section>
-                <section class="intro-sections">
-                    <h2>Galleri</h2>
-                    <div id="galleri-container">
-                        <img src="images/bartender.jpg" alt="Bartender">
-                        <img src="images/fest.jpg" alt="Fest">
-                    </div>
-                </section>
-            </div>
-        </main>
-        <footer>
+        
+<body id="qrmain">
+    <div id="qrcontent">
+        <h2 id="qrspillet">QR spil</h2>
+
+        <img id="qrbeer" src="images/qrbeer.png" alt="qr and beer">
+        <p>I Basements QR spil kan alle deltage. <br>På erhversakademiets områder bliver
+            der hver måned hængt plakater op.
+            Udover events i Basement har plakaterne også hver deres unikke QR kode DU kan scanne. Måske er du heldig og finde hovedgevinsten?
+
+        </p>
+        <img id="qrposter" src="images/basementposter.png" alt="poster">
+        <p> Når QR koden er scannet med din kamera app, kommer du ind på en side som fortæller dig om du har fundet en vinderplakat eller en nitte.<br><br>Hvis du er så heldig at finde en vinder side, skal du plot gemme siden og vise den i Basement for at indløse din præmie. Plakater og præmier varierer fra måned til måned. </p>
+
+        <img id="qrpurple" src="images/qrbasementpurple.png" alt="purple poster">
+    </div>
+
+<footer>
             <div id="footer-logo">
                 <a href="index.html"><img id="footer-img" src="images/basement-logo.svg" alt="Logo"></a>
                 <a href="https://www.facebook.com/Basement-EAAA-100264161619097/?modal=admin_todo_tour"><img id="footer-facebook" src="images/Purple-facebook-icon.svg" alt="Facebook"></a>
@@ -116,8 +96,6 @@
                 </section>
             </div>
         </footer>
-    </div>
-    <script src="js/script.js"></script>
-</body>
+        <script src="js/script.js"></script>
 
-</html>
+</body></html>

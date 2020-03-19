@@ -105,7 +105,151 @@
 
 /* ----------Slut forside style ---------- */
 
-/* ---- Media query ---- */
+
+/* ------------- Aktiviteter underside --------- */
+
+#act {
+    background-color: black;
+}
+
+#aktiviteter {
+    font-family: Bebas Neue;
+    font-size: 2.5rem;
+}
+
+#containerakt {
+    color: white;
+    font-family: Myriad Pro;
+    margin: 2%;
+    margin-top: 40%;
+}
+
+.boxes img {
+    width: 100%;
+}
+
+.boxes {
+    margin: 15% 0;
+
+}
+
+.boxes h3 {
+    margin-bottom: 0;
+}
+
+.boxes p {
+    margin-top: 0;
+    margin-top: 5%;
+}
+
+
+/*------------ QR spillet underside --------------*/
+
+#qrmain {
+    background-color: black;
+}
+
+#qrspillet {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+    margin-left: 3%;
+}
+
+#qrcontent {
+    color: white;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+     margin-top: 25%;
+
+}
+#qrcontent p {
+    margin-top: 5%;
+      margin-bottom: 5%;
+     font-size: 1.0rem;
+}
+
+#qrposter, #qrpurple {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#qrbeer {
+    width: 100%;
+
+}
+
+/* ----------- Priser underside ------*/
+
+#bodypriser {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 2%;
+}
+#wrapperpris {
+    margin-top: 30%;
+}
+#wrapperpris h1 {
+     text-transform: uppercase;
+}
+
+.flexcontainer1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    background-image:linear-gradient(120deg, #15173d, #0f0812);
+    padding: 2%;
+    margin: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.billeder {
+    width:50%;
+    padding-top:5%;
+    margin: 0;
+}
+
+.textcontent {
+    width: 50%;
+    margin: 0;
+    margin-right: 0;
+    text-align: center;
+
+}
+.getPrice {
+    font-family: 'Roboto', sans-serif;
+    color:#15173d;
+    background-color: lavender;
+    margin-bottom: 5%;
+}
+.tilbudp {
+    color:yellow;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+
+/* ----------------------  Media query ---------- */
+@media only screen and (min-width: 400px) {
+    .item1 {
+        width: 100%;
+    }
+}
+
+
 
 @media screen and (min-width: 600px) {
     
@@ -117,6 +261,33 @@
         width: 80vw;
     }
     
+     .item1 {
+        width: 44%;
+        margin: 1%;
+    }
+    #wrapperpris {
+        margin-top: 20%;
+    }
+    
+    #contentakt {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+         
+    }
+    .boxes {
+         width: 40%;
+        display: block;
+        margin-left: auto;
+    margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 5%;
+        padding: 2%;
+        
+    }
+    #containerakt {
+        margin-top: 15%;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -131,6 +302,87 @@
     
     #om-basement {
         width: 80vw;
+    }
+    .textcontent {
+        padding-top: 15%;
+    }
+    #containerakt {
+        margin-bottom: 0;
+        margin-top: 15%;
+    }
+    
+    #qrcontent {
+        margin-top: 10%;
+          display: block;
+        margin-left: 10%;
+  
+    }
+}
+
+@media only screen and (min-width: 900px) {
+     .item1 {
+        width: 27%;
+         margin-left: auto;
+         margin-right: auto;
+    
+    }
+    
+     #wrapperpris {
+        margin-top: 10%;
+         margin-bottom: 5%;
+    }
+}
+
+/*------ Media quereies 1000px ---- */
+@media only screen and (min-width: 1000px){
+    
+/*--Aktivitetetssiden--*/
+    
+    .boxes {
+        width: 32%;
+        display: block;
+        margin-left: auto;
+    margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+/*--QR siden--*/
+    #qrcontent {
+         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10%;
+    
+    }
+    #qrbeer {
+        width: 30%;
+        margin-left: 2%;
+        margin-bottom: 10%;
+    }
+    #qrposter {
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    #qrpurple {
+        width: 20%;
+        margin: 0;
+        margin-left: 2%;
+    }
+    #qrcontent p {
+         width: 45%;
+        margin: 0;
+        margin-left: 10%;
+        font-size: 1.5rem;
+        border:1px white solid;
+        padding: 5%;
+    }
+    #qrspillet {
+        margin-bottom: 5%;
+        width: 100%;
+        text-transform: uppercase;
     }
 }
 
@@ -167,6 +419,9 @@
     #galleri-container img {
         width: 45vw;
         padding: 5px;
+    }
+    #containerakt {
+        margin-top: 7%;
     }
 }
 
