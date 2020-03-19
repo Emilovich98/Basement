@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: Bebas Neue;
+    color: white;
+    font-family: Myriad Pro;
+
+}
+
+.item1 {
+    background-color: #12141B;
+    text-align: center;
+    padding: 5px;
+    margin: 15px
+}
+
+.billeder {
+    float: left;
+    padding: 5px;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .flexcontainer1 {
+        display: flex;
+    }
+
+    .item1 {
+        width: 50%;
+    }
+
+    #wrapper1 {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
