@@ -1,0 +1,196 @@
+/* ----- Forside styling ------ */
+
+#intro-container {
+    background-image: url(../images/fest-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#intro-logo {
+    width: 80vw;
+    padding-top: 25vh;
+    padding-bottom: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#arrow-down {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+}
+
+#opslag-container {
+    width: 94vw;
+    margin: 0 auto;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    box-shadow: 100px 0px 80px black, 100px 0px 80px black, 100px 0px 80px black, -100px 0px 80px black, -100px 0px 80px black, -100px 0px 80px black;
+}
+
+.opslag {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#opslag-container h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1vh;
+    margin-top: 4vh;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#facebook-button {
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#facebook-button p {
+    color: #5D00FF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    padding-left: 20px;
+}
+
+#facebook-button img {
+    height: 42px;
+    padding-right: 4px;
+}
+
+#om-basement {
+    width: 94vw;
+    margin: 0 auto;
+}
+
+.intro-sections {}
+
+.intro-sections h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1vh;
+    margin-top: 4vh;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.intro-sections p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+#galleri-container {
+    width: 100%;
+}
+
+#galleri-container img {
+    width: 100%;
+    padding-bottom: 1vh;
+}
+
+/* ----------Slut forside style ---------- */
+
+/* ---- Media query ---- */
+
+@media screen and (min-width: 600px) {
+    
+    #opslag-container {
+    width: 80vw;
+    }
+    
+    #om-basement {
+        width: 80vw;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    #intro-logo {
+        width: 60vw;
+    }
+    
+    #opslag-container {
+    width: 60vw;
+    }
+    
+    #om-basement {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    #intro-logo {
+        width: 40vw;
+    }
+    
+    #opslag-container {
+        display: flex;
+        width: 90vw;
+    }
+    
+    #opslag-1 {
+        padding: 1vh;
+    }
+    
+    #opslag-2 {
+        padding: 1vh;
+    }
+    
+    #om-basement {
+        width: 90vw;
+    }
+    
+    #galleri-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 3vh;
+    }
+    
+    #galleri-container img {
+        width: 45vw;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+    #opslag-container {
+    width: 80vw;
+    }
+    
+    #om-basement {
+        width: 80vw;
+    }
+    
+    #galleri-container img {
+        width: 40vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
