@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basement">
+    <meta name="keywords" content="Basement">
     <title>Basement</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a><img src="images/Basement-logo.svg"></a>
-            <div>
-                <div class="burger-line"></div>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="index.html"><img src="images/basement-logo.svg" alt="Logo"></a>
+                </div>
+                <div id="burger" onclick="showMobileNav()">
+                    <div class="burger-line" id="line-1"></div>
+                    <div class="burger-line" id="line-2"></div>
+                    <div class="burger-line" id="line-3"></div>
+                </div>
+                <div id="toggle-desk-nav">
+                    <ul id="nav-links-desktop">
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="index.html">Priser</a></li>
+                        <li><a href="index.html">Aktiviter</a></li>
+                        <li><a href="index.html">QR Spil</a></li>
+                    </ul>
+                </div>
+                <ul id="nav-links-mobile">
+                    <li class="show-links"><a href="index.html">Forside</a></li>
+                    <li class="show-links"><a href="index.html">Priser</a></li>
+                    <li class="show-links"><a href="index.html">Aktiviter</a></li>
+                    <li class="show-links"><a href="index.html">QR Spil</a></li>
+                    <li id="expand-logo" class="show-links">
+                        <img src="images/basement-logo.svg" alt="Logo">
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            
+        </main>
+        <footer>
+            <div id="footer-logo">
+                <a href="index.html"><img id="footer-img" src="images/basement-logo.svg" alt="Logo"></a>
+                <a href="https://www.facebook.com/Basement-EAAA-100264161619097/?modal=admin_todo_tour"><img id="footer-facebook" src="images/Purple-facebook-icon.svg" alt="Facebook"></a>
             </div>
-        </nav>
-    </header>
-    <main>
-        
-    </main>
-    <footer>
-        <a><img src="images/Basement-logo.svg"></a>
-        
-        <h6>Åbningstider</h6>
-        <p>Torsdag 11.30-21.00</p>
-        <p>Fredag 11.30-23.00</p>
-        <p>Lør - ons lukket</p>
-        
-        <h6>Kontakt</h6>
-        <p>E-mail: søreneaaa@gmail.com</p>
-        <p>+ 45 88 88 88 88</p>
-    </footer>
+            <div id="footer-container">
+                <section class="footer-item">
+                    <h6>Åbningstider</h6>
+                    <div class="item-container">
+                        <ul class="content-left">
+                            <li>Torsdag</li>
+                            <li>Fredag</li>
+                            <li>Lør - ons</li>
+                        </ul>
+                        <ul class="content-right">
+                            <li>11:30 - 21:00</li>
+                            <li>11:30 - 23:00</li>
+                            <li>Lukket</li>
+                        </ul>
+                    </div>
+                    <div class="footer-line"></div>
+                </section>
+                <section class="footer-item">
+                    <h6>Kontakt</h6>
+                    <div class="item-container">
+                        <ul class="content-left">
+                            <li>E-mail:</li>
+                            <li>Telefon:</li>
+                        </ul>
+                        <ul class="content-right">
+                            <li>søreneaaa@gmail.com</li>
+                            <li>+45 88 88 88 88</li>
+                        </ul>
+                    </div>
+                    <div class="footer-line"></div>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
