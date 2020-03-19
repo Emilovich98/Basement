@@ -13,5 +13,4 @@ function showMobileNav() {
     
     burger.classList.toggle("toggle");
     
-    
 }
