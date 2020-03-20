@@ -1,63 +1,37 @@
 
 [
-
     {
         "tilbud": "40 kr",
         "type": "QR kode"
-        
-
     },
-    
-    
     {
         "tilbud": "25 kr",
         "type": "Lykkejhul"
-        
-
     },
-
     {
         "tilbud": "5 kr",
         "type": "QR kode"
-        
-
     },
-    
      {
         "tilbud": "15 kr",
         "type": "QR kode"
-        
-
     },
     
     {
         "tilbud": "50 kr",
         "type": "Lykkehjul"
-        
-
     },
-
-    
      {
         "tilbud": "Gratis",
         "type": "Lykkehjul"
-        
-
     },
-    
      {
         "tilbud": "Gratis",
         "type": "QR kode"
-        
-
     },
-
          {
         "tilbud": "10 kr",
         "type": "QR kode"
-        
-
     }
-
 ]
 

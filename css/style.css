@@ -115,6 +115,7 @@
 #aktiviteter {
     font-family: Bebas Neue;
     font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 #containerakt {
@@ -126,6 +127,7 @@
 
 .boxes img {
     width: 100%;
+    border-radius: 8px;
 }
 
 .boxes {
@@ -135,110 +137,147 @@
 
 .boxes h3 {
     margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .boxes p {
     margin-top: 0;
     margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 /*------------ QR spillet underside --------------*/
 
-#qrmain {
-    background-color: black;
+#qr-content {
+    width: 92vw;
+    margin: 0 auto;
 }
 
-#qrspillet {
+
+#qr-section-1 {
+    margin-top: 4vh;
+}
+
+#qr-section-1 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5rem;
-    margin-bottom: 2%;
-    margin-left: 3%;
-}
-
-#qrcontent {
     color: white;
-    margin: 2%;
-    font-family: 'Roboto', sans-serif;
-     margin-top: 25%;
-
-}
-#qrcontent p {
-    margin-top: 5%;
-      margin-bottom: 5%;
-     font-size: 1.0rem;
+    font-size: 2.5em;
 }
 
-#qrposter, #qrpurple {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    margin-top: 15%;
-    margin-bottom: 15%;
-}
+#qr-image-1 {}
 
-#qrbeer {
+#qr-image-1 img {
     width: 100%;
+}
 
+
+#qr-section-2 {
+    margin-top: 1vh;
+}
+
+#qr-section-2 p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 1.8em;
+}
+
+#qr-image-2 {
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+#qr-image-2 img {
+    width: 100%;
+}
+
+
+#qr-section-3 {}
+
+#qr-section-3 p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 1.8em;
+}
+
+#qr-image-3 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#qr-image-3 img {
+    width: 100%;
 }
 
 /* ----------- Priser underside ------*/
 
-#bodypriser {
-    background-color: black;
+#priser-header {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 4vh;
+}
+
+#pris-flexcontainer {
+    width: 90vw;
+    margin: 0 auto;
+
+}
+
+.items {
+    background-color: #12141B;
+    min-height: 16vh;
+    margin: 2vh 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.pris-image-container {
+    height: 14vh;
+    margin: 2vh;
+    width: 14vh;
+}
+
+.pris-image-container img {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.pris-text-container {
+    margin-left: 4vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.pris-text-container h2 {
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin: 2%;
-}
-#wrapperpris {
-    margin-top: 30%;
-}
-#wrapperpris h1 {
-     text-transform: uppercase;
 }
 
-.flexcontainer1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.item1 {
-    background-image:linear-gradient(120deg, #15173d, #0f0812);
-    padding: 2%;
-    margin: 5%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-
-.billeder {
-    width:50%;
-    padding-top:5%;
-    margin: 0;
-}
-
-.textcontent {
-    width: 50%;
-    margin: 0;
-    margin-right: 0;
-    text-align: center;
-
-}
-.getPrice {
+.pris-text-container p {
     font-family: 'Roboto', sans-serif;
-    color:#15173d;
-    background-color: lavender;
-    margin-bottom: 5%;
+    color: white;
 }
-.tilbudp {
-    color:yellow;
-    margin: 0;
-    padding: 0;
-    font-size: 0.9rem;
+
+.get-price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #5D00FF;
+    font-size: 1em;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-style: none;
+    color: white;
+}
+
+.tilbud-p {
+    color: yellow;
 }
 
 
@@ -252,42 +291,57 @@
 
 
 @media screen and (min-width: 600px) {
-    
+
     #opslag-container {
-    width: 80vw;
+        width: 80vw;
     }
-    
+
     #om-basement {
         width: 80vw;
     }
-    
-     .item1 {
+
+    .item1 {
         width: 44%;
         margin: 1%;
     }
-    #wrapperpris {
-        margin-top: 20%;
-    }
-    
+
+    #wrapperpris {}
+
     #contentakt {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-         
+        justify-content: flex-start;
+
     }
+
     .boxes {
-         width: 40%;
+        width: 40%;
         display: block;
         margin-left: auto;
-    margin-right: auto;
+        margin-right: auto;
         margin-top: 0;
         margin-bottom: 5%;
         padding: 2%;
-        
+
     }
+
     #containerakt {
         margin-top: 15%;
     }
+
+    #qr-content {
+        width: 80vw;
+    }
+
+    #pris-flexcontainer {
+        width: 70vw;
+    }
+
+    #priser-header {
+        width: 70vw;
+    }
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -295,70 +349,78 @@
     #intro-logo {
         width: 60vw;
     }
-    
+
     #opslag-container {
-    width: 60vw;
+        width: 60vw;
     }
-    
+
     #om-basement {
         width: 80vw;
     }
+
     .textcontent {
         padding-top: 15%;
     }
+
     #containerakt {
         margin-bottom: 0;
         margin-top: 15%;
     }
-    
-    #qrcontent {
-        margin-top: 10%;
-          display: block;
-        margin-left: 10%;
-  
+
+    #qr-content {
+        width: 60vw;
     }
+
+    #pris-flexcontainer {
+        width: 60vw;
+    }
+
+    #priser-header {
+        width: 60vw;
+    }
+
 }
 
 @media only screen and (min-width: 900px) {
-     .item1 {
-        width: 27%;
-         margin-left: auto;
-         margin-right: auto;
-    
+
+    #pris-flexcontainer {
+        width: 50vw;
     }
-    
-     #wrapperpris {
-        margin-top: 10%;
-         margin-bottom: 5%;
+
+    #priser-header {
+        width: 50vw;
     }
 }
 
 /*------ Media quereies 1000px ---- */
-@media only screen and (min-width: 1000px){
-    
-/*--Aktivitetetssiden--*/
-    
+@media only screen and (min-width: 1000px) {
+
+    /*--Aktivitetetssiden--*/
+
     .boxes {
         width: 32%;
         display: block;
-        margin-left: auto;
-    margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 0;
         margin-bottom: 5%;
     }
-/*--QR siden--*/
+
+    /*--QR siden--*/
     #qrcontent {
-         display: flex;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: 10%;
-    
+
     }
+
     #qrbeer {
         width: 30%;
         margin-left: 2%;
         margin-bottom: 10%;
     }
+
     #qrposter {
         width: 30%;
         margin-left: 2%;
@@ -366,19 +428,22 @@
         margin-right: 0;
         margin-bottom: 5%;
     }
+
     #qrpurple {
         width: 20%;
         margin: 0;
         margin-left: 2%;
     }
+
     #qrcontent p {
-         width: 45%;
+        width: 45%;
         margin: 0;
         margin-left: 10%;
         font-size: 1.5rem;
-        border:1px white solid;
+        border: 1px white solid;
         padding: 5%;
     }
+
     #qrspillet {
         margin-bottom: 5%;
         width: 100%;
@@ -387,65 +452,95 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
+
     #intro-logo {
         width: 40vw;
     }
-    
+
     #opslag-container {
         display: flex;
         width: 90vw;
     }
-    
+
     #opslag-1 {
         padding: 1vh;
     }
-    
+
     #opslag-2 {
         padding: 1vh;
     }
-    
+
     #om-basement {
         width: 90vw;
     }
-    
+
     #galleri-container {
         display: flex;
         align-items: center;
         justify-content: flex-start;
         padding-bottom: 3vh;
     }
-    
+
     #galleri-container img {
         width: 45vw;
         padding: 5px;
     }
+
     #containerakt {
         margin-top: 7%;
     }
+
+    #qr-content {
+        width: 40vw;
+    }
+
+    #qr-image-1 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+    #qr-image-3 {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    #pris-flexcontainer {
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #priser-header {
+        width: 70vw;
+        text-align: center;
+    }
+
+    .items {
+        margin: 2vh 2vh;
+        width: 400px;
+        
+    }
+
+
 }
 
 @media screen and (min-width: 1200px) {
-    
+
     #opslag-container {
-    width: 80vw;
+        width: 80vw;
     }
-    
+
     #om-basement {
         width: 80vw;
     }
-    
+
     #galleri-container img {
         width: 40vw;
     }
+
+
 }
-
-
-
-
-
-
-
-
-
-
